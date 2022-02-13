@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# sleep until instance is ready
+# sleep until instance is ready, we wil see
 until [[ -f /var/lib/cloud/instance/boot-finished]]; do
    sleep 1
 done
